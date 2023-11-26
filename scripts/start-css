@@ -8,4 +8,5 @@ npx lerna bootstrap --force-local
 
 cd workspaces/css-mashlib
 nvm use --delete-prefix
+npm install --force-cache
 npm run start
