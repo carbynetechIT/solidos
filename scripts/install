@@ -10,3 +10,4 @@ nvm use --delete-prefix
 echo ">>>>> INSTALLING NPM DEPENDENCIES"
 rm -rf node_modules
 npm install
+set config="$HOME/.config"
