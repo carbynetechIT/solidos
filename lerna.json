@@ -3,4 +3,5 @@
     "workspaces/*"
   ],
   "version": "independent"
+  "deps": []
 }
