@@ -2,6 +2,6 @@
   "packages": [
     "workspaces/*"
   ],
-  "version": "independent"
+  "version": "independent",
   "deps": []
 }
