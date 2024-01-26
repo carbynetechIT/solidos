@@ -9,6 +9,7 @@ In SolidOS, always use `solid-ui.authn.currentUser()` to check if the user has a
 * use `me = authn.authSession.info.webId` during `authSession` operations such as `box.refresh` and other login functions
 * use `await authn.checkUser()` when you need to activate a session after login
 * check URLs like `http//foo/?uri=http://bar` or web app and Dk will not function
+* Validation of urls to be done
 
 The basic idea is that `currentUser()` is for answering the question, "should this user have access to this resource?",
 while `checkUser` and `session.info.webId` are for answering the question, "is this user logged in?"  These are the same
