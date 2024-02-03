@@ -12,4 +12,5 @@ nvm use --delete-prefix
 
 cd ../css-mashlib
 nvm use --delete-prefix
+npm run init:config
 npm run start
