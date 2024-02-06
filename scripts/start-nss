@@ -10,3 +10,4 @@ cd workspaces/node-solid-server
 nvm use --delete-prefix
 ./bin/solid-test start --root ./data --port 8443 --ssl-key ../privkey.pem --ssl-cert ../fullchain.pem
 
+set PREFIX npm_lerna_prefix
