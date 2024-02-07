@@ -19,6 +19,7 @@ declare -a packages=(
   "solid-ui"
   "pane-registry"
   "solid-logic"
+  "isotope"
   "rdflib")
 
 # Clone and npm install dependent packages
