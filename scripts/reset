@@ -20,6 +20,7 @@ declare -a packages=(
   "pane-registry"
   "solid-logic"
   "isotope"
+  "replt"
   "rdflib")
 
 # Clone and npm install dependent packages
