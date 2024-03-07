@@ -137,3 +137,5 @@ updateRepo web-access-control-tests
 # FIXME: https://github.com/solid/gitter-solid/pull/12
 # updateRepo github-solid
 REMOVED
+
+# Add new components
