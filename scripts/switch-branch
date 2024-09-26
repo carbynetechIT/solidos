@@ -42,6 +42,16 @@ do
   popd
 done
 
+declare -a packages=(
+  "rdflib"
+  "solid-logic"
+  "pane-registry"
+  "solid-ui"
+  "solid-panes"
+  "mashlib"
+  "node-solid-server")
+
+
 # Build dependent packages, ensuring each is in proper Node environment via nvm
 for package in "${packages[@]}"
 do
