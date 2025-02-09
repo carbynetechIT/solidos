@@ -66,6 +66,7 @@ Steps:
 6. Write unit tests
 7. Write examples
 8. Refactor
+9. Re-Test
 
 ## Windows developers
 
